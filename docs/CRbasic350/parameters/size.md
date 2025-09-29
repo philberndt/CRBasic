@@ -1,0 +1,5 @@
+# Size
+
+Defines the number of records (or rows) that should be allocated for the DataTable. The number of values (or columns) in the DataTable is determined by the output processing instructions contained in the DataTable declaration. Size can be defined as a fixed number of records or as auto-allocate. To set the table size to a fixed number of records, enter that value. To set the size to autoallocate, enter a -1. If a table is set to auto-allocate, all memory that remains after creating fixed-sized tables will be allocated to this table. If multiple DataTables are declared with a -1 for size, the available memory will be divided among the tables. The datalogger attempts to allocate memory to the tables so that all tables are filled at the same time. By default, data storage memory sectors are organized as ring memory. When the ring is full, oldest data are overwritten by newest data. Using the [FillStop](../Instructions/fillstop.md) statement sets a program to stop writing to the data table when it is full, and no more data are stored until the table is reset.
+
+Type: Constant (or expression that evaluates as a constant)

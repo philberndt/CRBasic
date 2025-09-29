@@ -1,0 +1,3 @@
+# web.obj.gz files
+
+Beginning with OS7.0, it is possible to bundle a main CRBasic program, several Include files, and a powerup.ini file into one web.obj.gz file using any gzip utility. The syntax is _filename_._ drive_.web.obj.gz. Valid drives are cpu, crd, and usr. This allows a data logger to extract a main CRBasic program and several include files. A powerup.ini file is used to specify the main program which will run on start-up. Once the web.obj.gz program is received and the contents are extracted, the data logger will automatically restart and run the program specified in the powerup.ini file. The powerup.ini file is then deleted. Note the data logger's internal webfiles remain untouched. For more details, see the gzip topic in the data logger manual.

@@ -1,0 +1,3 @@
+# SecsSinceLastRx
+
+A variable or variable array of Type Long which stores how many seconds it has been since something was last received on the specified connection. If the connection is active, this number is 0. If the connection becomes inactive, this number increments. If no connection is made, -1 is returned. If more than one connection is expected on the specified port, SecsSinceLastRX should be declared as an array and each element will contain seconds since last Rx for the corresponding connection in the Dest list. The list auto re-organizes with the freshest connections at the beginning.

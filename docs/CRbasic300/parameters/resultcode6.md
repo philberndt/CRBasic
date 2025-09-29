@@ -1,0 +1,20 @@
+# ResultCode (Result Code)
+
+The ResultCode is the variable in which a response code for the transmission will be stored. A zero indicates a successful transaction. A positive value indicates that there was no response to the request from the remote. A negative value indicates some other type of error occurred. The codes that can be returned are:
+
+| Code    | Description                                                                                                                                                                                                                     |
+| ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 0       | Successful.                                                                                                                                                                                                                     |
+| -1      | Response received but permission denied.                                                                                                                                                                                        |
+| -7      | Table definition mismatch; signatures do not match.                                                                                                                                                                             |
+| -8      | No records in the remote datalogger, no new records in the remote datalogger, or record length in the remote table is smaller than that in the local table.                                                                     |
+| -9      | Record length in the remote table is larger than that in the local table. The error will also occur if one datalogger s table is interval driven, and the other datalogger s table is non-interval driven (i.e., event driven). |
+| -10     | Local DataTable() not triggered for output.                                                                                                                                                                                     |
+| -16     | Table name and/or field name not present in the remote datalogger, or the field is read only in the destination datalogger.                                                                                                     |
+| -17     | Data type not supported.                                                                                                                                                                                                        |
+| -18     | Array in the sending datalogger is not dimensioned large enough to accommodate the values to be sent or array in the receiving datalogger is not large enough to accommodate values received                                    |
+| -20     | Out of Comms memory.                                                                                                                                                                                                            |
+| -21     | Failed to route packet when routing is set to auto-discover and route is not yet known.                                                                                                                                         |
+| -22     | Communication port buffer exceeded.                                                                                                                                                                                             |
+| -27     | DialSequence/EndDialSequence returned False so communication did not occur.                                                                                                                                                     |
+| 1, 2..n | The number of timeouts waiting for a response. The value will increment with each successive failure. After a 0 or negative response, the value will start over at 1.                                                           |

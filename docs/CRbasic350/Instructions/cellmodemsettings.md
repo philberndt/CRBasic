@@ -1,0 +1,24 @@
+# Cellular Modem Settings
+
+The following table demonstrates the proper syntax for some common cellular modem settings that may be set programmatically using the [SetSetting](setstatussetsetting.md) instruction. These settings may also be set usingDevice Configuration Utility
+
+**Note:** Configuration tool used to set up dataloggers and peripherals, and to configure PakBus settings before those devices are deployed in the field and/or added to networks.
+
+.
+
+For the syntax used to access cellular modem diagnostic and data usage information, click [here](Monitoring%20Cellular.md)
+
+| Setting          | Description                           | SetSetting Syntax                    | Notes                                                                                                                                                                                                             |
+| ---------------- | ------------------------------------- | ------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| CellEnabled      | Enables or disables modem             | SetSetting ("CellEnabled",1)         | 0 Disabled 1 or <>0 Enabled                                                                                                                                                                                       |
+| CellAPN          | Access Point Name (APN)               | SetSetting ("CellAPN",0)             | APN must be obtained from your cellular network provider.                                                                                                                                                         |
+| CellBillingDay   | Start day of the billing cycle.       | SetSetting("CellBillingDay",1)       | Minimum = 1 Maximum = 28                                                                                                                                                                                          |
+| CellDiversity    | Enable/Disable the diversity antenna. | SetSetting("CellDiversity",1)        | 0 = Disable 1 = Enable                                                                                                                                                                                            |
+| CellPDPUserName  | PDP Cell Authentication UserName      | SetSetting ("CellPDPUserName",)      | Often there is no username. If a Username is required, it is provided with the APN.                                                                                                                               |
+| CellPDPPassword  | PDP Cell Authentication Password      | SetSetting ("CellPDPPassword",)      | Often there is no password. If a password is required, it is provided with the APN.                                                                                                                               |
+| CellPDPAuth      | PDP Authentication Protocol           | SetSetting ("CellPDPAuth",0)         | 0 None 1 PAP 2 CHAP                                                                                                                                                                                               |
+| CellIPProtocol   | Cellular IP Protocol                  | SetSetting("CellIPProtocol",0)       | 0 = IPv4 1 = IPv6 2 =IPv4/IPv6                                                                                                                                                                                    |
+| CellPwrStartTime | Cellular power start (power-on) time  | SetSetting ("CellPWrStartTime",1440) | Specifies time of day in minutes when the datalogger will first enable the cellular interface. Examples: - 15 = 00:15 15 minutes after midnight - 180 = 03:00 '3:00 am - 1380 = 23:00 11:00 pm - 1440 = Always On |
+| CellPwrDuration  | Cellular power on duration            | SetSetting ("CellPwrDuration",60)    | Specifies the interval, in minutes, over which the datalogger will power its cellular interface                                                                                                                   |
+| CellPwrRepeat    | Cell Power Repeat cycle               | SetSetting ("CellPwrRepeat",60)      | Specifies the interval in minutes to power on the cellular interface following the first time of the day that the datalogger powers on its cellular interface.                                                    |
+| TCPMSS           | Maximum Transmission Unit or MTU      | (SetSetting("TCPMSS", 1024)          | Allows the user to set the size of the TCP/IP packet.                                                                                                                                                             |

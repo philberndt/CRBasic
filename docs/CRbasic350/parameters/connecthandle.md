@@ -1,0 +1,5 @@
+# ConnectHandle (Connect Handle)
+
+ConnectHandle is a variable or array to which resource handles associated with the socket connection(s) will be stored. The argument should be declared as a variable or array of type LONG. This parameter must be used if a single TCPOpen instruction is to be used in a loop structure (typically) for the purpose of opening or serving multiple concurrent connections; the alternative would be to use multiple independent TCPOpen instructions within the program. This feature makes it easier to loop through an array of IPAddr and TCPPort combinations for the purpose of initiating multiple TCP client connections. When used for listening (IPAddr = ), it allows for MaxConnect clients to connect to a single TCPPort number. Unlike the value returned by TCPOpen, the ConnectHandle argument is updated in the background, asynchronous to the execution of TCPOpen. If the connection is closed for any reason, its corresponding ConnectHandle will immediately be set to a value of 0.
+
+Type: Variable declared as Long

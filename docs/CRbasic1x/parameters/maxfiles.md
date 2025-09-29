@@ -1,0 +1,5 @@
+# MaxFiles (Maximum Number of Files)
+
+Used to specify the maximum number of files to retain on the storage device. When the MaxFiles is reached, the oldest file will be deleted prior to writing the new one. If the destination drive is not large enough to accommodate MaxFiles, the datalogger will adjust MaxFiles internally (though the parameter will not be changed in the instruction). If MaxFiles is set to -1, then no limit will be set for the maximum number of files that can be written, until the storage device is full. Once the device is full, the oldest file will be deleted prior to writing the new one. If MaxFiles is set to -2, there is no limit set for the maximum number of files that can be written, but once the storage device is full, no new files will be written. Thus, -1 is analogous to an auto-allocated ring memory mode, and -2 is analogous to an auto-allocated fill and stop mode. If MaxFiles is set to 0, FileName will not be incremented and the file will be overwritten with a new file each time.
+
+Type: Constant

@@ -1,0 +1,5 @@
+# NewFileVar (NewFile Variable)
+
+The NewFileVar is a variable formatted as Boolean, Long, or Float that will hold the result of the instruction. If a new file has been stored, the variable will be set to 0. If a new file has not been stored, NewFileVar will be set to a non-zero value. If the variable is a Boolean, it is set to -1. If the variable is a Long or Float, each time the instruction is executed and a new file is not detected, it will be incremented by 1, unless the value is 0. (This allows the NewFile value to be set externally by some other means to 1, and then the value is monitored to determine if a file has been written. See the example describing an application for triggering a camera.) **Find File Option** When the NewFileVar is type Long and set to the value of -2, the file timestamps are ignored. The data logger will search for a filename on the drive that matches the name set in the FileName parameter. When a file is found, the name of the file that was detected is returned in the NewFileName parameter. The value of the NewFileVar will return -2 (remain unchanged).
+
+Type: Variable, formatted as Boolean, Long, or Float

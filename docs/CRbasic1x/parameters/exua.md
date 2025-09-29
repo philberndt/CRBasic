@@ -1,0 +1,3 @@
+# ExuA (Current Excitation in μA)
+
+The ExuA argument is the current excitation, in μAmps, to apply to the sensor. The allowable range is 2500 μA. Reducing the excitation current may allow additional sensors to be excited with one excitation channel. For example, in the example above for MeasPEx, if we decrease the excitation current to 2 mA , (V = IR), 0.002 \* 350 = 0.7 V per resistor. Then divide the maximum compliance voltage for an excitation channel (5 V) by the volts per sensor: 5 V/0.7 V per resistor = 7.14 resistors. So, by decreasing the excitation current to 2 mA instead of 2.5 mA, you could measure up to seven 350-ohm resistors per excitation channel. Note that because output for this instruction is ratometric, output is scaled to the excitation current.

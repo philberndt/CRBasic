@@ -1,0 +1,9 @@
+# LocalFileName (Local File Name)
+
+A string expression containing a local file name, comma separated list of local file names, data table name, or data table field name. Multiple files can be specified by separating their names with a comma (note that you cannot use multiple file names when streaming data). Make sure to include the file directory along with the file name. To stream all data tables, specify the optional parameters necessary for streaming and specifiy the source parameter as an empty string ( ).
+
+If a directory listing is retrieved with this function, LocalFileName will specify a file name in which to write the results, or an array in which to write the results, where the name of each file will be written into its own array element. CR/LF characters are replaced with null. If an array element exists beyond the number of files listed, a null is written into that element.
+
+If retrieving a file, this parameter is the filename to use when writing the file on the datalogger s drive; alternately, if the parameter is a string variable that does not specify a drive (i.e., the fourth character is not : ), the results will be written to the variable directly. If using the delete action, this parameter will often be an empty string ( ). If using the rename action, this parameter should contain the name of the remote file(s) to be renamed. If streaming data directly from a data table or table field to a file on the FTP server, this parameter should specify the table name (for example, TableOne ) or table field name (for example, TableOne.BattV_Min ) that will be used as the data source. Note that when specifying a fieldname, if Tablename.Fieldname is a variable, the length of the Tablename.fieldname is limited to 63 characters.
+
+Type: Constant string (enclosed in quotes) or variable string

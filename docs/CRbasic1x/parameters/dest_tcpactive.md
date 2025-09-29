@@ -1,0 +1,3 @@
+# Dest
+
+Variable of Type String in which to store the connection information. The information returned is the IP Address, port number, and time of last connection. If multiple connections are active, the most recent connection is listed first. The list auto re-organizes with the freshest connection at the beginning. The format of the list is: IP Address:xxx.xxx.xxx.xxx; Port: xxxx; Time: MM/dd/yyyy hour:min:secs:microsec. If multiple connections are listed, each is shown on a separate line. If the string variable is not sized large enough to hold all the connection information, then only the information that fits into the variable is shown.

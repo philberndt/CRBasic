@@ -1,0 +1,13 @@
+# CS7500Cmd (Data to Retrieve)
+
+Requests the data to retrieve from the sensor. The command is sent first to the device specified by the SDMAddress parameter. If the Reps parameter is greater than 1, subsequent devices will be issued the command with each rep. The results for the command will be returned in the array specified by the Dest parameter. A numeric code is entered to request the data. Right click the parameter to display a drop-down list box.
+
+| Code | Description                                                                                                                                                                                                                                    |
+| ---- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 0    | Get CO2 & H2O molar density (mmol/m^3).                                                                                                                                                                                                        |
+| 1    | Get CO2 & H2O absorptance.                                                                                                                                                                                                                     |
+| 2    | Get pressure (kPa), temperature (C), auxiliary measurement 1, and cooler voltage (V).                                                                                                                                                          |
+| 3    | Get cell diagnostic value, output bandwidth (Hz), and programmed delay.                                                                                                                                                                        |
+| 4    | Get CO2 molar density (mmol/m^3), H2O molar density (mmol/m^3), CO2 absorptance, H2O absorptance, pressure (kPa), temperature (C), auxiliary measurement 1, cooler voltage (V), diagnostic value, output bandwidth (Hz), and programmed delay. |
+| 5    | Get CO2 & H2O molar density (mmol/m^3) and pressure (kPa).                                                                                                                                                                                     |
+| 6    | Get CO2 and H2O molar density (mmol/m^3), pressure (kPa), and diagnostic.                                                                                                                                                                      |
