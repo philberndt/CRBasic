@@ -1,0 +1,23 @@
+# CRBasic documentation — top-level index
+
+> Top-level llms index for the CRBasic documentation set. This file provides quick, LLM-friendly entry points to each datalogger series' curated `llms.txt` and points to companion enumerator files when present.
+
+This folder (`docs/`) contains series-specific subfolders (for example `CRbasic350/`) each with a per-series `llms.txt`. Use the per-series `llms.txt` files as entry points for automated ingestion or as a human-friendly index.
+
+## Series
+
+- [CRbasic1x llms (CRBasic 1.x)](./CRbasic1x/llms.txt)
+- [CRbasic300 llms (CRBasic 3.00)](./CRbasic300/llms.txt)
+- [CRbasic350 llms (CRBasic 3.50)](./CRbasic350/llms.txt)
+
+## Repository README
+
+- [Repository README (overview & guidance)](../README.md)
+
+## Validation & tooling
+
+- Per-series `llms.txt` files may link to companion enumerator files named `instructions-llms.txt` and `parameters-llms.txt` for exhaustive lists. See the repository `README.md` for a PowerShell snippet to validate relative links.
+
+## Optional
+
+- If you want more aggressive context generation for LLM ingestion, run a tool such as `llms_txt2ctx` against the per-series `llms.txt` to expand linked docs into a single LLM context file.

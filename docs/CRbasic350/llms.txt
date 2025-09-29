@@ -1,0 +1,106 @@
+ # CRbasic350
+
+ > CRBasic 3.50 series — Documentation for CRBasic 3.50-series dataloggers. This folder contains instruction references, parameter references, skins, and terms for devices running the 3.50 firmware series.
+
+Important notes:
+
+- CRBasic 3.50 documentation may include features not present in earlier series. Use the companion enumerator files for exhaustive instruction and parameter lists.
+
+## Docs — Info files (complete list)
+
+- [accessing the help system](./Info/accessingthehelpsystem.md)
+- [acknowledgements](./Info/acknowledgements.md)
+- [alternatives to email-to-text services](./Info/alternatives-to-email-to-text-services.md)
+- [arrays and index into arrays](./Info/arraysandindexintoarrays.md)
+- [boolean values true and false](./Info/booleanvaluestrueandfalse.md)
+- [browsesymbols examples](./Info/browsesymbolsexamples1.md)
+- [codes and char reference](./Info/CodesChar.md)
+- [comments](./Info/comments.md)
+- [communications protocols](./Info/CommsProtocols.md)
+- [compile menu](./Info/compilemenu.md)
+- [conditional compilation](./Info/conditionalcompilation.md)
+- [constant customization](./Info/constantcustomization.md)
+- [crbasic editor notes](./Info/crbasiceditor.md)
+- [CRBasic program structure](./Info/CRbasicProgramStructure.md)
+- [datalogger status control](./Info/DataloggerStatusControl.md)
+- [data query examples](./Info/dataqueryexamples1.md)
+- [datatable access](./Info/datatableaccess.md)
+- [datatables overview](./Info/datatables.md)
+- [datatypes reference](./Info/datatypes.md)
+- [double precision arithmetic](./Info/DoublePrecArith.md)
+- [edit instruction categories](./Info/editinstructioncategories.md)
+- [edit menu](./Info/editmenu.md)
+- [editor preferences](./Info/editorpreferences.md)
+- [File I/O and management](./Info/FileIO.md)
+- [file menu](./Info/filemenu.md)
+- [general information](./Info/generalinformation.md)
+- [goto menu](./Info/gotomenu.md)
+- [gzipextract notes](./Info/gzipextract.md)
+- [help menu](./Info/helpmenu.md)
+- [include file](./Info/includefile.md)
+- [insert symbol](./Info/insertsymbol.md)
+- [instruction menu](./Info/instructionmenu.md)
+- [instruction panel 1](./Info/instructionpanel1.md)
+- [instruction panel options](./Info/instructionpaneloptions.md)
+- [Networking and Internet Protocols](./Info/Internet Protocols.md)
+- [mathematical expressions](./Info/mathematicalexpressions.md)
+- [math functions](./Info/mathfunctions.md)
+- [Measurements and field calibration](./Info/Measurements.md)
+- [multidimensional arrays](./Info/multidimensionalarrays.md)
+- [multiple undo/redo](./Info/multipleundoredo.md)
+- [multipliers offsets](./Info/multipliersoffsets.md)
+- [not available](./Info/notavailable.md)
+- [operators reference](./Info/operators.md)
+- [output instruction suffixes](./Info/outputinstructionsuffixes1.md)
+- [PakBus overview](./Info/PakBus.md)
+- [parameter dialog box](./Info/parameterdialogbox.md)
+- [pick cr200 compiler](./Info/pickcr200compiler.md)
+- [pointer variable](./Info/pointervariable.md)
+- [predefined constants](./Info/predefinedconstants.md)
+- [Processing modes](./Info/ProcessingModes.md)
+- [Program components and notes](./Info/ProgComponents.md)
+- [Program file extension](./Info/Program File Extension.md)
+- [Program file summary](./Info/programfilesummary.md)
+- [programming tips](./Info/programmingtips.md)
+- [Program structure (alternate)](./Info/ProgramStructure.md)
+- [program window](./Info/programwindow.md)
+- [row and column information](./Info/rowandcolumninformation.md)
+- [Sample program and examples](./Info/sampleprogram.md)
+- [sdi12 sensor setup supported commands](./Info/sdi12sensorsetupsupportedcommands.md)
+- [search menu](./Info/searchmenu.md)
+- [select instructions](./Info/selectinstructions.md)
+- [select server](./Info/selectserver.md)
+- [sending a program](./Info/sendingaprogram.md)
+- [Serial I/O notes](./Info/SerialIO.md)
+- [set dld extension](./Info/setdldextension.md)
+- [show tables](./Info/showtables.md)
+- [string manipulation](./Info/String Manipulation.md)
+- [tables output instructions](./Info/Tables Output Inst.md)
+- [technical support](./Info/technicalsupport.md)
+- [template menu](./Info/templatemenu.md)
+- [text message SMS via email relay](./Info/textmessagesmsviaemailrelay.md)
+- [tools menu](./Info/toolsmenu.md)
+- [type over mode](./Info/typeovermode.md)
+- [URL escape codes](./Info/URL Escape Codes.md)
+- [using field names for SHEF/PE codes](./Info/usingfieldnamesforshefpecodes.md)
+- [view menu](./Info/viewmenu.md)
+- [web obj gz files](./Info/web_obj_gz_files.md)
+- [webserver api commands](./Info/webserverapicommands1.md)
+- [window menu](./Info/windowmenu.md)
+- [wv calculations](./Info/wv_calculations.md)
+
+## Instructions (complete)
+
+- Primary instruction reference: see `./instructions-llms.txt` (companion file with a complete, alphabetized list of the `Instructions/` docs).
+
+## Parameters (complete)
+
+- Primary parameter reference: see `./parameters-llms.txt` (companion file with a complete, alphabetized list of the `parameters/` docs).
+
+## Assets
+
+- [Assets and skins](./assets/)
+
+## Optional
+
+- [Full Info index](./Info/)

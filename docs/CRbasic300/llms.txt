@@ -1,0 +1,130 @@
+# CRbasic300
+
+> CRBasic 3.00 series — Documentation and references for CRBasic 300-series dataloggers. Use these links for instruction reference, parameters, skins, and examples specific to CRBasic 300.
+
+Important notes:
+
+- This folder contains the 3.00 series documentation and assets.
+- For older 1.x series, see the sibling `CRbasic1x/llms.txt`.
+
+## Docs
+
+- [Program structure and components](./Info/ProgramStructure.md): structure and major components for CRBasic programs.
+- [Templates and skins](./Skin/): UI skin resources and templates.
+- [Terms and glossary](./terms/): glossary of terms used in the 3.00 series docs.
+
+### Info files (complete list)
+
+- [acknowledgements](./Info/acknowledgements.md)
+- [accessing the help system](./Info/accessingthehelpsystem.md)
+- [alternatives to email-to-text services](./Info/alternatives-to-email-to-text-services.md)
+- [arrays and index into arrays](./Info/arraysandindexintoarrays.md)
+- [boolean values true and false](./Info/booleanvaluestrueandfalse.md)
+- [browsesymbols examples](./Info/browsesymbolsexamples1.md)
+- [codes and char reference](./Info/CodesChar.md)
+- [comments](./Info/comments.md)
+- [communications protocols](./Info/CommsProtocols.md)
+- [compile menu](./Info/compilemenu.md)
+- [conditional compilation](./Info/conditionalcompilation.md)
+- [constant customization](./Info/constantcustomization.md)
+- [crbasic editor notes](./Info/crbasiceditor.md)
+- [crbasic program structure](./Info/crbasicprogramstructure.md)
+- [datalogger status control](./Info/DataloggerStatusControl.md)
+- [data query examples](./Info/dataqueryexamples1.md)
+- [datatable access](./Info/datatableaccess.md)
+- [datatables overview](./Info/datatables.md)
+- [datatypes reference](./Info/datatypes.md)
+- [double precision arithmetic](./Info/DoublePrecArith.md)
+- [edit instruction categories](./Info/editinstructioncategories.md)
+- [edit menu](./Info/editmenu.md)
+- [editor preferences](./Info/editorpreferences.md)
+- [file menu](./Info/filemenu.md)
+- [file I/O](./Info/FileIO.md)
+- [general information](./Info/generalinformation.md)
+- [gzipextract notes](./Info/gzipextract.md)
+- [gotomenu](./Info/gotomenu.md)
+- [help menu](./Info/helpmenu.md)
+- [include file](./Info/includefile.md)
+- [insert symbol](./Info/insertsymbol.md)
+- [instruction panel 1](./Info/instructionpanel1.md)
+- [instruction panel options](./Info/instructionpaneloptions.md)
+- [instruction menu](./Info/instructionmenu.md)
+- [internet protocols](./Info/Internet Protocols.md)
+- [mathematical expressions](./Info/mathematicalexpressions.md)
+- [math functions](./Info/mathfunctions.md)
+- [measurements](./Info/Measurements.md)
+- [multiple undo/redo](./Info/multipleundoredo.md)
+- [multidimensional arrays](./Info/multidimensionalarrays.md)
+- [multipliers offsets](./Info/multipliersoffsets.md)
+- [not available](./Info/notavailable.md)
+- [operators reference](./Info/operators.md)
+- [output instruction suffixes](./Info/outputinstructionsuffixes1.md)
+- [pakbus documentation](./Info/PakBus.md)
+- [parameter dialog box](./Info/parameterdialogbox.md)
+- [pick cr200 compiler](./Info/pickcr200compiler.md)
+- [pointer variable](./Info/pointervariable.md)
+- [predefined constants](./Info/predefinedconstants.md)
+- [program files summary](./Info/programfilesummary.md)
+- [program window](./Info/programwindow.md)
+- [programming tips](./Info/programmingtips.md)
+- [program structure](./Info/ProgramStructure.md)
+- [program file extension](./Info/Program File Extension.md)
+- [processing modes](./Info/ProcessingModes.md)
+- [prog components](./Info/ProgComponents.md)
+- [row and column information](./Info/rowandcolumninformation.md)
+- [sample program](./Info/sampleprogram.md)
+- [sdi12 sensor setup supported commands](./Info/sdi12sensorsetupsupportedcommands.md)
+- [search menu](./Info/searchmenu.md)
+- [select instructions](./Info/selectinstructions.md)
+- [select server](./Info/selectserver.md)
+- [sending a program](./Info/sendingaprogram.md)
+- [serial I/O](./Info/SerialIO.md)
+- [set dld extension](./Info/setdldextension.md)
+- [show tables](./Info/showtables.md)
+- [string manipulation](./Info/String Manipulation.md)
+- [tables output instructions](./Info/Tables Output Inst.md)
+- [template menu](./Info/templatemenu.md)
+- [technical support](./Info/technicalsupport.md)
+- [text message SMS via email relay](./Info/textmessagesmsviaemailrelay.md)
+- [toolsmenu](./Info/toolsmenu.md)
+- [type over mode](./Info/typeovermode.md)
+- [URL escape codes](./Info/URL Escape Codes.md)
+- [using field names for SHEF/PE codes](./Info/usingfieldnamesforshefpecodes.md)
+- [view menu](./Info/viewmenu.md)
+- [web obj gz files](./Info/web_obj_gz_files.md)
+- [webserver api commands](./Info/webserverapicommands1.md)
+- [window menu](./Info/windowmenu.md)
+- [wv calculations](./Info/wv_calculations.md)
+
+
+## Instructions
+
+- [Instruction reference directory](./Instructions/): detailed instruction docs for CRBasic 300. This directory contains individual instruction docs (over 800 files). Example entries:
+
+- [abs](./Instructions/abs.md)
+- [and](./Instructions/and.md)
+- [average](./Instructions/average.md)
+- [for/next](./Instructions/fornext.md)
+- [if then else](./Instructions/ifthenelse.md)
+ 
+- [Complete Instructions list (full enumeration)](./instructions-llms.txt)
+
+## Parameters
+
+- [Parameter files directory](./parameters/): parameter examples and config files. This directory contains a large number of parameter reference files (each parameter used by instructions and examples). Example entries:
+
+- [interval](./parameters/interval.md)
+- [filename](./parameters/filename.md)
+- [destination](./parameters/destination.md)
+
+If you want a complete `parameters/` expansion, I can enumerate all parameter files in this section as well.
+
+- [Complete Parameters list (full enumeration)](./parameters-llms.txt)
+
+## Assets
+
+- [Assets folder](./assets/): images and other supporting assets.
+
+## Optional
+
+- [Full Info index](./Info/): complete list of Info documents for deep reference.

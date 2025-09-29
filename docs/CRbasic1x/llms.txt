@@ -1,0 +1,121 @@
+# CRbasic1x
+
+> CRBasic 1.x — Reference documentation for Campbell Scientific CRBasic 1.x dataloggers. This directory contains concise, LLM-friendly links to the most useful human-readable files: short guides, instruction references, parameter examples, and assets used by the docs.
+
+Important notes:
+
+- CRBasic 1.x documentation covers older datalogger platforms. If you are working with CRBasic 3xx series, consult the corresponding `llms.txt` files in the sibling folders.
+- Links below are relative to this file and point into the repository's documentation files.
+
+## Docs
+
+- [Programming tips and overview](./Info/programmingtips.md): general usage tips and best practices.
+- [Program file summary](./Info/programfilesummary.md): quick reference for program files and extensions.
+- [Sample program](./Info/sampleprogram.md): a short example program and explanation.
+- [CRBasic program structure](./Info/crbasicprogramstructure.md): layout and structure of CRBasic programs.
+
+## Instructions
+
+- [Instruction reference directory](./Instructions/): alphabetical list of instruction documentation files (e.g. `abs.md`, etc.).
+
+## Parameters
+
+- [Parameter files directory](./parameters/): example parameter and configuration files used in sample programs.
+
+## Info files (complete list)
+
+- [arraysandindexintoarrays](./Info/arraysandindexintoarrays.md)
+- [alternatives-to-email-to-text-services](./Info/alternatives-to-email-to-text-services.md)
+- [base10tobase4referencechart](./Info/base10tobase4referencechart.md)
+- [booleanvaluestrueandfalse](./Info/booleanvaluestrueandfalse.md)
+- [browsesymbolsexamples1](./Info/browsesymbolsexamples1.md)
+- [CodesChar](./Info/CodesChar.md)
+- [comments](./Info/comments.md)
+- [compilemenu](./Info/compilemenu.md)
+- [conditionalcompilation](./Info/conditionalcompilation.md)
+- [constantcustomization](./Info/constantcustomization.md)
+- [controlportpairs](./Info/controlportpairs.md)
+- [cpiframesync](./Info/cpiframesync.md)
+- [crbasiceditor](./Info/crbasiceditor.md)
+- [crbasicprogramstructure](./Info/crbasicprogramstructure.md)
+- [CustomMenus](./Info/CustomMenus.md)
+- [DataloggerStatusControl](./Info/DataloggerStatusControl.md)
+- [dataqueryexamples1](./Info/dataqueryexamples1.md)
+- [datatableaccess](./Info/datatableaccess.md)
+- [datatables](./Info/datatables.md)
+- [datatypes](./Info/datatypes.md)
+- [DoublePrecArith](./Info/DoublePrecArith.md)
+- [editorpreferences](./Info/editorpreferences.md)
+- [editinstructioncategories](./Info/editinstructioncategories.md)
+- [editmenu](./Info/editmenu.md)
+- [emaillist placeholder](./Info/placeholder.md)
+- [filemenu](./Info/filemenu.md)
+- [generalinformation](./Info/generalinformation.md)
+- [gotomenu](./Info/gotomenu.md)
+- [gzipextract](./Info/gzipextract.md)
+- [helpmenu](./Info/helpmenu.md)
+- [instructionmenu](./Info/instructionmenu.md)
+- [instructionpanel1](./Info/instructionpanel1.md)
+- [instructionpaneloptions](./Info/instructionpaneloptions.md)
+- [includefile](./Info/includefile.md)
+- [insertsymbol](./Info/insertsymbol.md)
+- [mathematicalexpressions](./Info/mathematicalexpressions.md)
+- [MethodsWriteDatatoCard](./Info/MethodsWriteDatatoCard.md)
+- [multidimensionalarrays](./Info/multidimensionalarrays.md)
+- [multipleundoredo](./Info/multipleundoredo.md)
+- [multipliersoffsets](./Info/multipliersoffsets.md)
+- [notavailable](./Info/notavailable.md)
+- [outputinstructionsuffixes1](./Info/outputinstructionsuffixes1.md)
+- [parameterdialogbox](./Info/parameterdialogbox.md)
+- [pickcr200compiler](./Info/pickcr200compiler.md)
+- [pointervariable](./Info/pointervariable.md)
+- [predefinedconstants](./Info/predefinedconstants.md)
+- [ProcessingModes](./Info/ProcessingModes.md)
+- [ProgComponents](./Info/ProgComponents.md)
+- [Program File Extension](./Info/Program File Extension.md)
+- [ProgramStructure](./Info/ProgramStructure.md)
+- [programwindow](./Info/programwindow.md)
+- [rowandcolumninformation](./Info/rowandcolumninformation.md)
+- [sdi12sensorsetupsupportedcommands](./Info/sdi12sensorsetupsupportedcommands.md)
+- [SDM](./Info/SDM.md)
+- [searchmenu](./Info/searchmenu.md)
+- [selectinstructions](./Info/selectinstructions.md)
+- [selectserver](./Info/selectserver.md)
+- [sendingaprogram](./Info/sendingaprogram.md)
+- [SerialIO](./Info/SerialIO.md)
+- [setdldextension](./Info/setdldextension.md)
+- [showtables](./Info/showtables.md)
+- [String Manipulation](./Info/String Manipulation.md)
+- [Tables Output Inst](./Info/Tables Output Inst.md)
+- [technicalsupport](./Info/technicalsupport.md)
+- [templatemenu](./Info/templatemenu.md)
+- [textmessagesmsviaemailrelay](./Info/textmessagesmsviaemailrelay.md)
+- [toolsmenu](./Info/toolsmenu.md)
+- [typeovermode](./Info/typeovermode.md)
+- [URL Escape Codes](./Info/URL Escape Codes.md)
+- [usingfieldnamesforshefpecodes](./Info/usingfieldnamesforshefpecodes.md)
+- [viewmenu](./Info/viewmenu.md)
+- [web_obj_gz_files](./Info/web_obj_gz_files.md)
+- [webserver api commands](./Info/webserverapicommands1.md)
+- [windowmenu](./Info/windowmenu.md)
+- [wv_calculations](./Info/wv_calculations.md)
+
+## Instructions
+
+- See the companion enumerator for a complete list of `Instructions/` documentation files:
+
+- [Full Instructions index (large)](./instructions-llms.txt)
+
+## Parameters
+
+- See the companion enumerator for a complete list of `parameters/` documentation files:
+
+- [Full Parameters index (large)](./parameters-llms.txt)
+
+## Assets
+
+- [Images and assets](./assets/images/): diagrams and images referenced by the docs.
+
+## Optional
+
+- [Full Info index](./Info/): all `Info` documents — secondary reading for in-depth topics.
