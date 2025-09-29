@@ -26,7 +26,7 @@ Why we use `llms.txt`
 
 Quick start
 
-- For automatic ingestion, point your agent or pipeline at the `llms.txt` for the desired series (for example `https://raw.githubusercontent.com/philberndt/CRBasic/main/docs/CRbasic350/llms.txt`).
+- For automatic ingestion, point your agent or pipeline at the `llms.txt` for the desired series (for example `https://philberndt.github.io/CRBasic-Docs/CRbasic350/llms.txt`).
 - For manual browsing, open the `llms.txt` in the series folder. Use the companion enumerator files for complete lists.
 
 Link validation (PowerShell)
