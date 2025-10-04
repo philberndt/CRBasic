@@ -16,8 +16,7 @@ This folder (`docs/`) contains series-specific subfolders (for example `CRbasic3
 
 ## Validation & tooling
 
-- Per-series `llms.txt` files may link to companion enumerator files named `instructions-llms.txt` and `parameters-llms.txt` for exhaustive lists. See the repository `README.md` for a PowerShell snippet to validate relative links.
-
+- Per-series `llms.txt` files may link to companion enumerator files named `instructions-llms.txt` and `parameters-llms.txt` for exhaustive lists.
 ## Optional
 
 - If you want more aggressive context generation for LLM ingestion, run a tool such as `llms_txt2ctx` against the per-series `llms.txt` to expand linked docs into a single LLM context file.
